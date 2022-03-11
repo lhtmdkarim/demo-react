@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: 'Poppins-Bold';
+        src: url("../fonts/Poppins/Poppins-Bold.ttf");
+    }
+    @font-face {
+        font-family: 'Poppins-SemiBold';
+        src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+    }
+    @font-face {
+        font-family: 'Poppins-Regular';
+        src: url("../fonts/Poppins/Poppins-Regular.ttf");
+    }
+    @font-face {
+        font-family: 'Poppins-Medium';
+        src: url("../fonts/Poppins/Poppins-Medium.ttf");
+    }
+}
+
+
+.abc{
+    color: red;
+}
+
+.min-width-10px{
+    min-width: 10px;
+}
+
+.max-width-400px{
+    max-width: 400px;
+}
+
+.position-right-5vw{
+    right: 5vw;
+}
+
+.max-width-243{
+    max-width: 243px;
+}
+
+@screen md {
+    .max-width-674px{
+        max-width: 674px;
+    }
+
+    .global-container{
+        padding-left: 7.083vw;
+        padding-right: 7.083vw;
+    }
+
+    .billboard-container{
+        padding-left: 7.29vw !important;
+        padding-right: 3.8vw !important;
+    }
+
+    .max-width-1640px{
+        max-width: 1640px;
+    }
+}
+
+
+
