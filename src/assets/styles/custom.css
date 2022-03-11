@@ -39,6 +39,11 @@
     max-width: 243px;
 }
 
+.apply-example {
+    @apply bg-primary-50 rounded-3xl md:rounded-5-5xl grid grid-cols-1 md:grid-cols-2; /*combining tailwind classes in one*/
+    /*background-color: red; can also add normal css properties in the same class*/
+}
+
 @screen md {
     .max-width-674px{
         max-width: 674px;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function BillboardComponent(){
     return (
-        <div className="bg-primary-50 px-12 py-20 md:pl-35 md:pt-36.5 md:pr-18.5 md:pb-25.5 rounded-3xl md:rounded-5-5xl grid grid-cols-1 md:grid-cols-2">
+        <div className="apply-example px-12 py-20 md:pl-35 md:pt-36.5 md:pr-18.5 md:pb-25.5 ">
             <div>
                 <div className="text-ft8 md:text-ft11 text-black-50 text-center md:text-left font-PoppinsBold">Decentralized lottery</div>
                 <div className="text-ft5 md:text-ft9 text-black-50 text-center md:text-left font-PoppinsSemiBold">for the people, by the people</div>
