@@ -10,7 +10,7 @@ function JoinAndEarnComponent(){
                     <div className="mt-9 flex relative">
                         <div>
                             <div className="text-ft5 text-black-50 max-width-400px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</div>
-                            <button className="mt-15 text-ft3 text-navyBlue-50 font-semibold py-3 border border-navyBlue-50 w-57.5 rounded-3xl hover:bg-navyBlue-50 hover:text-white-50 hover:border-white-50">CREATE GAME</button>
+                            <button className="mt-15 text-ft3 text-navyBlue-50 font-semibold py-3 border border-navyBlue-50 w-57.5 rounded-3xl hover:bg-navyBlue-50 hover:text-white hover:border-white">CREATE GAME</button>
                         </div>
                         <div className="flex justify-center absolute position-right-5vw hidden md:block">
                             <img src="/images/Group-681.svg" className=""/>
@@ -23,7 +23,7 @@ function JoinAndEarnComponent(){
                     <div className="mt-9 flex relative">
                         <div>
                             <div className="text-ft5 text-black-50 max-width-400px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</div>
-                            <button className="mt-15 text-ft3 text-navyBlue-50 font-semibold py-3 border border-navyBlue-50 w-57.5 rounded-3xl hover:bg-navyBlue-50 hover:text-white-50 hover:border-white-50">CREATE GAME</button>
+                            <button className="mt-15 text-ft3 text-navyBlue-50 font-semibold py-3 border border-navyBlue-50 w-57.5 rounded-3xl hover:bg-navyBlue-50 hover:text-white hover:border-white">CREATE GAME</button>
                         </div>
                         <div className="flex justify-center absolute position-right-5vw hidden md:block">
                             <img src="/images/Group-682.svg" className=""/>
@@ -36,7 +36,7 @@ function JoinAndEarnComponent(){
                     <div className="mt-9 flex relative">
                         <div>
                             <div className="text-ft5 text-black-50 max-width-400px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</div>
-                            <button className="mt-15 text-ft3 text-navyBlue-50 font-semibold py-3 border border-navyBlue-50 w-57.5 rounded-3xl hover:bg-navyBlue-50 hover:text-white-50 hover:border-white-50">CREATE GAME</button>
+                            <button className="mt-15 text-ft3 text-navyBlue-50 font-semibold py-3 border border-navyBlue-50 w-57.5 rounded-3xl hover:bg-navyBlue-50 hover:text-white hover:border-white">CREATE GAME</button>
                         </div>
                         <div className="flex justify-center absolute position-right-5vw hidden md:block">
                             <img src="/images/Group-606.svg" className=""/>
@@ -49,7 +49,7 @@ function JoinAndEarnComponent(){
                     <div className="mt-9 flex relative">
                         <div>
                             <div className="text-ft5 text-black-50 max-width-400px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu libero in erat consequat fermentum quis vel velit. Nulla sit amet tortor nunc. Praesent vel interdum diam.</div>
-                            <button className="mt-15 text-ft3 text-navyBlue-50 font-semibold py-3 border border-navyBlue-50 w-57.5 rounded-3xl hover:bg-navyBlue-50 hover:text-white-50 hover:border-white-50">CREATE GAME</button>
+                            <button className="mt-15 text-ft3 text-navyBlue-50 font-semibold py-3 border border-navyBlue-50 w-57.5 rounded-3xl hover:bg-navyBlue-50 hover:text-white hover:border-white">CREATE GAME</button>
                         </div>
                         <div className="flex justify-center absolute position-right-5vw hidden md:block">
                             <img src="/images/Group-683.svg" className=""/>

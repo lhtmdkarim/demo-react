@@ -12,8 +12,8 @@ class CustomInput extends BaseComponent {
             <div>
                 <input id={this.props.id} type={this.props.type} placeholder={this.props.placeholder}
                        onChange={this.props.onChange}
-                       className=""/>
-                <div className="">{this.props.error}</div>
+                       className={"w-100 outline-none input-border " + this.props.className} value={this.props.value}/>
+                <div className="fc-red fs-14 py-1">{this.props.error}</div>
             </div>
         );
     }

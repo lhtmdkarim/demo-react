@@ -8,7 +8,7 @@ function BillboardComponent(){
                 <div className="text-ft5 md:text-ft9 text-black-50 text-center md:text-left font-PoppinsSemiBold">for the people, by the people</div>
                 <div className="text-ft4 md:text-ft6 text-black-50 mt-6 md:mt-10 text-center md:text-left max-width-674px font-PoppinsSemiBold">Lottery of the People is a distributed system which allows anyone to create, distribute, buy or sell digital NFT lottery tickets.</div>
                 <div className="flex justify-center md:justify-start">
-                    <button className="bg-red-50 text-white-50 w-65 h-11 text-ft3 font-semibold rounded-3xl mt-15 font-PoppinsMedium">PLAY AND EARN</button>
+                    <button className="bg-red-50 text-white w-65 h-11 text-ft3 font-semibold rounded-3xl mt-15 font-PoppinsMedium">PLAY AND EARN</button>
                 </div>
             </div>
             <div>
