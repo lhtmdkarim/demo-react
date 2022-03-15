@@ -58,49 +58,6 @@ module.exports = {
 
     },
 
-    extend: { //theme options are to be extended with custom variants and not overridden (1 unit = 4px)
-      spacing: {
-
-        4.5: "18px",
-        7.75: "31px",
-        9.5: "38px",
-        11.5: "46px", //divide the required value by 4 to get the key name (46/4 = 11.5)
-        13: "52px",
-        15: "60px",
-        18.5: "74px",
-        19.25: "77px",
-        20.5: "82px",
-        21.25: "85px",
-        25.5: "98px",
-        29: "116px",
-        35: "140px",
-        36.5: "146px",
-        45: "180px",
-        57.5: "230px",
-        61: "244px",
-        65: "260px",
-
-
-      },
-      borderWidth: {
-        // '0': 0,
-        // '1': "1px",
-        // 'DEFAULT': "1px",
-        // '2': "2px",
-        // '4': "4px",
-        // '8': "8px",
-      },
-      borderRadius: { //same as border width
-        '5-5xl': "34px",
-        // none: "0rem",
-        // sm: "0.125rem",
-        // DEFAULT: "0.25rem",
-        // md: "0.5rem",
-        // lg: "1rem",
-        // full: "10rem"
-      },
-    },
-
     fontSize: { // `[fontSize, { letterSpacing, lineHeight }]`
 
       'ft1': ['12px', { //Poppins Regular
@@ -182,6 +139,49 @@ module.exports = {
     backgroundImage: theme => ({
       'dummy': "url('/public/images/Mask-Group-3.png')", //tailwind class => bg-dummy
     }),
+
+    extend: { //theme options are to be extended with custom variants and not overridden (1 unit = 4px)
+      spacing: {
+
+        4.5: "18px",
+        7.75: "31px",
+        9.5: "38px",
+        11.5: "46px", //divide the required value by 4 to get the key name (46/4 = 11.5)
+        13: "52px",
+        15: "60px",
+        18.5: "74px",
+        19.25: "77px",
+        20.5: "82px",
+        21.25: "85px",
+        25.5: "98px",
+        29: "116px",
+        35: "140px",
+        36.5: "146px",
+        45: "180px",
+        57.5: "230px",
+        61: "244px",
+        65: "260px",
+
+
+      },
+      borderWidth: {
+        // '0': 0,
+        // '1': "1px",
+        // 'DEFAULT': "1px",
+        // '2': "2px",
+        // '4': "4px",
+        // '8': "8px",
+      },
+      borderRadius: { //same as border width
+        '5-5xl': "34px",
+        // none: "0rem",
+        // sm: "0.125rem",
+        // DEFAULT: "0.25rem",
+        // md: "0.5rem",
+        // lg: "1rem",
+        // full: "10rem"
+      },
+    },
   },
 
   variants: { //there are few css properties which don't support features/events like responsive, hover etc. by default, so to make them supportive for those css properties, we write them down as below
