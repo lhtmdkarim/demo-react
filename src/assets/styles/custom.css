@@ -1,3 +1,5 @@
+/*make sure to import all the other css files here for them to work in the project*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

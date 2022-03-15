@@ -22,7 +22,7 @@ module.exports = {
   },
   important: true,
   theme: {
-    screens: {
+    screens: { //overriding the default tailwind screens values
       xs: "480px",
       sm: "640px",
       md: "768px",
