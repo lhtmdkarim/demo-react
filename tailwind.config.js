@@ -178,11 +178,13 @@ module.exports = {
       md: "0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 4px 6px -1px rgba(0, 0, 0, 0.1)",
       outline: "0px 0px 0px 3px rgba(0, 0, 0, 0.5)"
     },
+
     backgroundImage: theme => ({
       'dummy': "url('/public/images/Mask-Group-3.png')", //tailwind class => bg-dummy
     }),
   },
-  variants: {
+
+  variants: { //there are few css properties which don't support features/events like responsive, hover etc. by default, so to make them supportive for those css properties, we write them down as below
     width: ["responsive", "hover", "focus", "group-hover"],
     display: ["responsive", "hover", "focus", "group-hover"],
     transform: ["responsive", "hover", "focus", "group-hover"],

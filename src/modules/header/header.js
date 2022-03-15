@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Header(){
     return (
-        <div className="flex pt-8 pb-9 relative">
+        <div className="hidden md:flex pt-8 pb-9 relative">
             <div className="margin-right-12vw">
                 <img src="/images/Logo-Color.svg"/>
             </div>
