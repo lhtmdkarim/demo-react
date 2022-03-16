@@ -1,7 +1,3 @@
-const {
-  colors: defaultColors
-} = require('tailwindcss/defaultTheme')
-
 module.exports = {
   purge: {
     // enabled: true,
