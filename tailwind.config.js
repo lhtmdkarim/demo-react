@@ -22,8 +22,9 @@ module.exports = {
   },
   important: true,
   theme: {
-    screens: { //overriding the default tailwind screens values
-      xs: "480px",
+    screens: { // specifying screens is mandatory in every tailwind.config file
+      xs: "480px",   //min-width 480px
+      "2xs": "580px",
       sm: "640px",
       md: "768px",
       lg: "1024px",
@@ -141,9 +142,8 @@ module.exports = {
     }),
 
     extend: { //theme options are to be extended with custom variants and not overridden (1 unit = 4px)
-      spacing: {
-
-        4.5: "18px",
+      spacing: { //common for width, height, padding, margin
+        4.5: "18px",         //p-4.5 , m-4.5 , w-4.5, h-4.5
         7.75: "31px",
         9.5: "38px",
         11.5: "46px", //divide the required value by 4 to get the key name (46/4 = 11.5)
@@ -156,7 +156,9 @@ module.exports = {
         25.5: "98px",
         29: "116px",
         35: "140px",
+
         36.5: "146px",
+
         45: "180px",
         57.5: "230px",
         61: "244px",
