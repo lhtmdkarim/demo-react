@@ -20,12 +20,11 @@ module.exports = {
   theme: {
     screens: { // specifying screens is mandatory in every tailwind.config file
       xs: "480px",   //min-width 480px
-      "2xs": "580px",
       sm: "640px",
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-      '2xl': "1440px"
+      '2xl': "1440px",
     },
     colors: {
       transparent: "transparent",
@@ -152,32 +151,17 @@ module.exports = {
         25.5: "98px",
         29: "116px",
         35: "140px",
-
         36.5: "146px",
-
         45: "180px",
         57.5: "230px",
         61: "244px",
         65: "260px",
-
-
       },
       borderWidth: {
-        // '0': 0,
-        // '1': "1px",
-        // 'DEFAULT': "1px",
-        // '2': "2px",
-        // '4': "4px",
-        // '8': "8px",
+
       },
       borderRadius: { //same as border width
         '5-5xl': "34px",
-        // none: "0rem",
-        // sm: "0.125rem",
-        // DEFAULT: "0.25rem",
-        // md: "0.5rem",
-        // lg: "1rem",
-        // full: "10rem"
       },
     },
   },
