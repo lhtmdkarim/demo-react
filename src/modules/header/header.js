@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 
-function Header(){
-
-    const checkWallet = () => {
-
-    }
+const Header = () => {
 
     return (
         <div className="hidden md:flex pt-8 pb-9 relative">
@@ -22,7 +18,7 @@ function Header(){
 
             <div className="flex absolute right-0">
                 <button className="text-ft3 font-PoppinsSemiBold text-red-50 border rounded-3xl border-red-50 w-45 margin-right-half-vw py-2">CREATE GAME</button>
-                <button className="text-ft3 font-PoppinsSemiBold bg-blue-50 text-white rounded-3xl w-45 py-2" onClick={checkWallet}>CONNECT WALLET</button>
+                <button className="text-ft3 font-PoppinsSemiBold bg-blue-50 text-white rounded-3xl w-45 py-2">CONNECT WALLET</button>
             </div>
         </div>
     )

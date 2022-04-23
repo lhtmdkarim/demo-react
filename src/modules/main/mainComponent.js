@@ -1,9 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import Billboard from '../billboard/index'
-import TopGames from '../topGames/index'
-import TotalMoneyEarned from '../totalMoneyEarned/index'
-import JoinAndEarn from '../joinAndEarn/index'
-import HowLotteryWorks from '../howLotteryWorks/index'
 import Header from "../header/header";
 
 function MainComponent(){
@@ -12,10 +8,6 @@ function MainComponent(){
             <div className="max-width-1640px">
                 <Header/>
                 <Billboard/>
-                <TopGames/>
-                <TotalMoneyEarned/>
-                <JoinAndEarn/>
-                <HowLotteryWorks/>
             </div>
         </div>
     )

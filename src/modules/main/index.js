@@ -1,8 +1,7 @@
-import React from "react";
-import BaseComponent from "../baseComponent";
+import React, {Component} from "react";
 import MainComponent from "./mainComponent";
 
-class Main extends BaseComponent{
+class Main extends Component{
     constructor(props){
         super(props);
         this.state = {

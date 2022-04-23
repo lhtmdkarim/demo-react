@@ -7,7 +7,7 @@ import {Provider} from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import './assets/styles/custom.css';
 
-function TailwindReact() {
+function WebApp() {
     return (
         <BrowserRouter>
             <Provider store={store}>
@@ -17,7 +17,7 @@ function TailwindReact() {
     );
 }
 
-ReactDOM.render(<TailwindReact/>, document.getElementById('root'));
+ReactDOM.render(<WebApp/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

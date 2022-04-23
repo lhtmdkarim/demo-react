@@ -1,8 +1,7 @@
-import React from "react";
-import BaseComponent from "../baseComponent";
+import React, { Component } from "react";
 import BillboardComponent from "./billboardComponent";
 
-class BillBoard extends BaseComponent{
+class BillBoard extends Component{
     constructor(props){
         super(props);
         this.state = {
