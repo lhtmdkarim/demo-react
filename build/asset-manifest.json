@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d1c4b46.chunk.css",
+    "main.js": "/static/js/main.7df986bc.chunk.js",
+    "main.js.map": "/static/js/main.7df986bc.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.3293bef8.js",
+    "runtime~main.js.map": "/static/js/runtime~main.3293bef8.js.map",
+    "static/js/2.7a53644e.chunk.js": "/static/js/2.7a53644e.chunk.js",
+    "static/js/2.7a53644e.chunk.js.map": "/static/js/2.7a53644e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.eb1012a21a6e644488a058d8cfb520b0.js": "/precache-manifest.eb1012a21a6e644488a058d8cfb520b0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7d1c4b46.chunk.css.map": "/static/css/main.7d1c4b46.chunk.css.map",
+    "static/media/custom.css": "/static/media/Poppins-SemiBold.6f1520d1.ttf"
+  }
+}
