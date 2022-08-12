@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    // enabled: true,
+    enabled: false,
     content: [
     ],
     css: [
@@ -22,9 +22,10 @@ module.exports = {
       xs: "480px",   //min-width 480px
       sm: "640px",
       md: "768px",
-      lg: "1024px",
-      xl: "1280px",
-      '2xl': "1440px",
+      lg: "900px",
+      xl: "1024px",
+      '2xl': "1280px",
+      '3xl': "1440px",
     },
     colors: {
       transparent: "transparent",
@@ -40,7 +41,12 @@ module.exports = {
         50: "#3D61B0"
       },
       grey: {
-        50: "#F6FAFC"
+        50: "#F6FAFC",
+        100: "#5B5B5B",
+        200: "#3D545B",
+        300: "#CED5D6CC",
+        400: "#F4F5F5",
+        500: "#F5F3F3",
       },
       red: {
         50: "#FF6142"
@@ -50,55 +56,50 @@ module.exports = {
       },
       darkGrey: {
         50: "#333333"
+      },
+      magenta: "#FF0083",
+      green: {
+        50: "#DBEC79",
       }
 
     },
 
     fontSize: { // `[fontSize, { letterSpacing, lineHeight }]`
-
-      'ft1': ['12px', { //Poppins Regular
+      'ft1': ['14px', {
         letterSpacing: '0em',
-        lineHeight: '18px',
+        lineHeight: '17.92px',
       }],
       'ft2': ['14px', {
         letterSpacing: '0em',
-        lineHeight: '21px',
+        lineHeight: '18px',
       }],
-      'ft3': ['15px', {
+      'ft3': ['24.81px', {
         letterSpacing: '0em',
-        lineHeight: '23px',
+        lineHeight: '23.77px',
       }],
-      'ft4': ['16px', {
+      'ft4': ['14px', {
         letterSpacing: '0em',
-        lineHeight: '25px',
+        lineHeight: '16.8px',
       }],
-      'ft5': ['16px', {
+      'ft5': ['12.63px', {
         letterSpacing: '0em',
-        lineHeight: '22px',
+        lineHeight: '16.17px',
       }],
-      'ft6': ['18px', {
+      'ft6': ['10.02px', {
         letterSpacing: '0em',
-        lineHeight: '27px',
+        lineHeight: '12.82px',
       }],
-      'ft7': ['22px', {
+      'ft7': ['12.02px', {
         letterSpacing: '0em',
-        lineHeight: '33px',
+        lineHeight: '16.83px',
       }],
-      'ft8': ['24px', {
+      'ft8': ['10.02px', {
         letterSpacing: '0em',
-        lineHeight: '35px',
+        lineHeight: '14.03px',
       }],
-      'ft9': ['34px', { //H3
+      'ft9': ['14.03px', {
         letterSpacing: '0em',
-        lineHeight: '62px',
-      }],
-      'ft10': ['38px', {
-        letterSpacing: '0em',
-        lineHeight: '57px',
-      }],
-      'ft11': ['44px', {
-        letterSpacing: '0em',
-        lineHeight: '62px',
+        lineHeight: '17.95px',
       }],
     },
 
@@ -120,16 +121,6 @@ module.exports = {
 
 
     boxShadow: {
-      // none: "0px 25px 50px -12px rgba(0, 0, 0, 0.25)",
-      inner: "inset 0px 2px 4px 0px rgba(0, 0, 0, 0.06)",
-      xs: "0px 0px 0px 1px rgba(0, 0, 0, 0.05)",
-      xl: "0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.1)",
-      DEFAULT: "0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.1)",
-      '2xl': "0px 25px 50px -12px rgba(0, 0, 0, 0.25)",
-      sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05), inset 0 1px 3px 0 rgba(0, 0, 0, 0.5)",
-      lg: "0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.1)",
-      md: "0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 4px 6px -1px rgba(0, 0, 0, 0.1)",
-      outline: "0px 0px 0px 3px rgba(0, 0, 0, 0.5)"
     },
 
     backgroundImage: theme => ({
@@ -138,24 +129,16 @@ module.exports = {
 
     extend: { //theme options are to be extended with custom variants and not overridden (1 unit = 4px)
       spacing: { //common for width, height, padding, margin
-        4.5: "18px",         //p-4.5 , m-4.5 , w-4.5, h-4.5
-        7.75: "31px",
-        9.5: "38px",
-        11.5: "46px", //divide the required value by 4 to get the key name (46/4 = 11.5)
-        13: "52px",
-        15: "60px",
-        18.5: "74px",
-        19.25: "77px",
-        20.5: "82px",
-        21.25: "85px",
-        25.5: "98px",
-        29: "116px",
-        35: "140px",
-        36.5: "146px",
-        45: "180px",
-        57.5: "230px",
-        61: "244px",
-        65: "260px",
+        "99px": "99px",
+        "31px": "31px",
+        62.5: "250px",
+        "18per": "18%",
+        "82per": "82%",
+        4.5: "18px",
+        "7.58px": "7.58px",
+        "238.84px": "238.84px",
+        "109.94px": "109.94px",
+        "39.81px": "39.81px",
       },
       borderWidth: {
 

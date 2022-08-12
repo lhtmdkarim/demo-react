@@ -3,22 +3,25 @@ import React, { useState } from "react";
 const Header = () => {
 
     return (
-        <div className="hidden md:flex pt-8 pb-9 relative">
-            <div className="margin-right-12vw">
-                <img src="/images/Logo-Color.svg"/>
-            </div>
+        <div className="hidden lg:block">
+            <div className="flex w-screen h-99px px-14 py-4 relative border-b border-grey-200">
+                <div className="flex items-center">
+                    <img src="/images/logo.svg" className="mr-31px cursor-pointer"/>
+                    <img src="/images/search.png" className="w-12 h-12 cursor-pointer"/>
+                </div>
 
-            <div className="flex margin-right-6vw">
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold margin-right-2vw">PLAY</a>
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold margin-right-2vw">SPONSOR</a>
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold margin-right-2vw">DISTRIBUTE</a>
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold margin-right-2vw">RETAIL</a>
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold">COMMUNITY</a>
-            </div>
-
-            <div className="flex absolute right-0">
-                <button className="text-ft3 font-PoppinsSemiBold text-red-50 border rounded-3xl border-red-50 w-45 margin-right-half-vw py-2">CREATE GAME</button>
-                <button className="text-ft3 font-PoppinsSemiBold bg-blue-50 text-white rounded-3xl w-45 py-2">CONNECT WALLET</button>
+                <div className="flex absolute right-14">
+                    <div className="flex items-center">
+                        <div className="mr-10 text-ft1 text-magenta cursor-pointer">Explore</div>
+                        <div className="mr-10 text-ft2 text-grey-100 cursor-pointer">Collections</div>
+                        <div className="mr-9 text-ft2 text-grey-100 cursor-pointer">Create Listing</div>
+                    </div>
+                    <div className="flex items-center">
+                        <img src="/images/mode.png" className="w-12 h-12 mr-31px cursor-pointer"/>
+                        <img src="/images/language.png" className="w-12 h-12 mr-31px cursor-pointer"/>
+                        <img src="/images/wallet_address.png" className="h-12 cursor-pointer"/>
+                    </div>
+                </div>
             </div>
         </div>
     )

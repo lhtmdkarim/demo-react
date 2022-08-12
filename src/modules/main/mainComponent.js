@@ -1,14 +1,10 @@
 import React from "react";
-import Billboard from '../billboard/index'
-import Header from "../header/header";
+import NFTListing from "../nftListing";
 
 function MainComponent(){
     return (
-        <div className="global-container flex justify-center">
-            <div className="max-width-1640px">
-                <Header/>
-                <Billboard/>
-            </div>
+        <div className="w-full h-screen overflow-y-scroll">
+            <NFTListing/>
         </div>
     )
 }

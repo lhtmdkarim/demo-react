@@ -21,3 +21,7 @@ export const httpConstants = {
     },
     API_END_POINT: {}
 };
+
+export const Pages = {
+    DASHBOARD: "/dashboard",
+};
